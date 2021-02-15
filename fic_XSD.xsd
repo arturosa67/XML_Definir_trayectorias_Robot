@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<!-- Definition of simple elements -->
+
+<xs:element name="TOPOINT">
+  <xs:complexType>
+    <xs:attribute ref="name" use="required"/>
+    <xs:attribute ref="xyz" use="required"/>
+    <xs:attribute ref="angles" use="required"/>
+    <xs:attribute ref="angles_type" use="required"/>
+  </xs:complexType>
+</xs:element> 
+<xs:element name="LINE">
+  <xs:complexType>
+    <xs:attribute ref="name" use="required"/>
+    <xs:attribute ref="xyz2" use="required"/>
+    <xs:attribute ref="angles2" use="required"/>
+    <xs:attribute ref="angles_type" use="required"/>
+  </xs:complexType>
+</xs:element> 
+<xs:element name="ARC">
+  <xs:complexType>
+    <xs:attribute ref="name" use="required"/>
+    <xs:attribute ref="xyz2" use="required"/>
+    <xs:attribute ref="angles2" use="required"/>
+    <xs:attribute ref="xyz3" use="required"/>
+    <xs:attribute ref="angles3" use="required"/>
+    <xs:attribute ref="angles_type" use="required"/>
+  </xs:complexType>
+</xs:element> 
+<xs:element name="TOOL">
+  <xs:complexType>
+    <xs:attribute ref="name" use="required"/>
+    <xs:attribute ref="velocity"/>
+    <xs:attribute ref="time"/>
+    <xs:attribute ref="active" use="required"/>
+    <xs:attribute ref="acel"/>
+  </xs:complexType>
+</xs:element>
+
+
+
+
+
+<!--Definition of types-->
+
+  <xs:simpleType name="name_format">
+   <xs:restriction base="xs:string">
+   <xs:pattern value="[a-zA-Z_ 0-9]*"/>
+   </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="point_format">
+      <xs:restriction base="xs:string">
+      <xs:pattern value="[\-0-9]*(\.)?[0-9]*[:][\-0-9]*(\.)?[0-9]*[:][-0-9]*(\.)?[0-9]*"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="angle_format">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[-0-9]*(\.)?[0-9]*[:][-0-9]*(\.)?[0-9]*[:][-0-9]*(\.)?[0-9]*"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+<xs:simpleType name="angle_type_format">
+  <xs:restriction base="xs:string">
+    <xs:enumeration value="ZYZ"/>
+    <xs:enumeration value="ZXZ"/>
+    <xs:enumeration value="RPY"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="number_format">
+      <xs:restriction base="xs:string">
+      <xs:pattern value="[-0-9]*(\.)?[0-9]*"/>
+    </xs:restriction>
+  </xs:simpleType>
+<xs:simpleType name="active_format">
+  <xs:restriction base="xs:string">
+    <xs:enumeration value="ON"/>
+    <xs:enumeration value="OFF"/>
+  </xs:restriction>
+</xs:simpleType>
+<xs:simpleType name="HM_format">
+      <xs:restriction base="xs:string">
+      <!--<xs:pattern value="\[[-0-9]*(\.)?[0-9]*[ ][-0-9]*(\.)?[0-9]*[ ][-0-9]*(\.)?[0-9]*[ ][-0-9]*(\.)?[0-9]*[;][-0-9]*(\.)?[0-9]*[ ][-0-9]*(\.)?[0-9]*[ ][-0-9]*(\.)?[0-9]*[ ][-0-9]*(\.)?[0-9]*[;][-0-9]*(\.)?[0-9]*[ ][-0-9]*(\.)?[0-9]*[ ][-0-9]*(\.)?[0-9]*[ ][-0-9]*(\.)?[0-9]*[;][-0-9]*(\.)?[0-9]*[ ][-0-9]*(\.)?[0-9]*[ ][-0-9]*(\.)?[0-9]*[ ][-0-9]*(\.)?[0-9]*\]"/>-->
+      <xs:pattern value="\[(([-0-9]*(\.)?[0-9]*[ ]){3}[-0-9]*(\.)?[0-9]*[;]){3}([-0-9]*(\.)?[0-9]*[ ]){3}[-0-9]*(\.)?[0-9]*\]"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+
+<xs:simpleType name="units_format">
+  <xs:restriction base="xs:string">
+    <xs:enumeration value="mm:rad:s"/>
+    <xs:enumeration value="m:gr:s"/>
+  </xs:restriction>
+</xs:simpleType>
+
+
+
+
+<!-- Definition of attributes -->
+ 
+<xs:attribute name="name"  type="name_format" default="__name__"/>
+<xs:attribute name="xyz" type="point_format" default="0.0:0.0:0.0"/>
+<xs:attribute name="angles" type="angle_format" default="0.0:0.0:0.0"/>
+<xs:attribute name="xyz2" type="point_format" default="0.0:0.0:0.0"/>
+<xs:attribute name="angles2" type="angle_format" default="0.0:0.0:0.0"/>
+<xs:attribute name="xyz3" type="point_format" default="0.0:0.0:0.0"/>
+<xs:attribute name="angles3" type="angle_format" default="0.0:0.0:0.0"/>
+<xs:attribute name="angles_type" type="angle_type_format" default="ZYZ"/> <!--tipo de orientacion de angulos Euler -->
+<xs:attribute name="velocity" type="number_format" default="0.0"/>
+<xs:attribute name="time" type="number_format" default="0.0"/>
+<xs:attribute name="active" type="active_format" default="OFF"/>
+<xs:attribute name="acel" type="number_format" default="0.0"/>
+<xs:attribute name="process_type" type="xs:string"/>
+<xs:attribute name="units" type="units_format"/>
+<xs:attribute name="file" type="xs:string"/>
+<xs:attribute name="group" type="xs:string"/>
+<xs:attribute name="HM_from_WORLD_to_SITE" type="HM_format" default="[1.0 0.0 0.0 0.0;0.0 1.0 0.0 0.0;0.0 0.0 1.0 0.0;0.0 0.0 0.0 1.0]"/>
+<xs:attribute name="HM_from_SITE_to_PART" type="HM_format" default="[1 0 0 0;0 1 0 0;0 0 1 0;0 0 0 1]"/>
+<xs:attribute name="OVERWRITE_HM_from_SITE_to_PART" type="HM_format" default="[1 0 0 0;0 1 0 0;0 0 1 0;0 0 0 1]"/>
+
+<!-- Definicion de complex elements-->
+
+<xs:element name="INCLUDE">
+  <xs:complexType>
+    <xs:attribute ref="name" use="required"/>
+    <xs:attribute ref="file" use="required"/>
+    <xs:attribute ref="group" use="required"/>
+    <xs:attribute ref="OVERWRITE_HM_from_SITE_to_PART"/> <!--se puede poner o no-->
+  </xs:complexType>
+</xs:element> 
+<xs:element name="GROUP">
+	<xs:complexType>
+	<xs:choice minOccurs="1" maxOccurs="unbounded">
+		<xs:element ref="LINE" maxOccurs="unbounded"/>
+		<xs:element ref="TOPOINT" maxOccurs="unbounded"/>
+		<xs:element ref="ARC" maxOccurs="unbounded"/>
+		<xs:element ref="TOOL" maxOccurs="unbounded"/>
+		<xs:element ref="POLILINE" maxOccurs="unbounded"/>
+		<xs:element ref="POLICURVE" maxOccurs="unbounded"/>
+	</xs:choice>
+		<xs:attribute ref="name" use="required"/>
+    <xs:attribute ref="HM_from_SITE_to_PART"/>
+	</xs:complexType>
+</xs:element>
+  <xs:element name="PROCESS">
+  <xs:complexType>
+    <xs:sequence minOccurs="1" maxOccurs="unbounded">
+       <xs:element ref="GROUP" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="INCLUDE" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+   <xs:attribute ref="process_type" use="required"/>
+   <xs:attribute ref="units" use="required"/>
+   <xs:attribute ref="HM_from_WORLD_to_SITE" use="required"/>
+  </xs:complexType>
+</xs:element> 
+ 
+ <xs:element name="POLILINE">
+  <xs:complexType>
+    <xs:sequence minOccurs="1" maxOccurs="unbounded">
+      <xs:element ref="LINE" maxOccurs="unbounded"/>
+    </xs:sequence>
+  <xs:attribute ref="name" use="required"/>
+</xs:complexType> 
+</xs:element>
+
+ <xs:element name="POLICURVE">
+  <xs:complexType>
+    <xs:sequence minOccurs="1" maxOccurs="unbounded">
+      <xs:element ref="ARC" minOccurs="1" maxOccurs="unbounded"/>
+      <xs:element ref="LINE" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element ref="POLILINE" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  <xs:attribute ref="name" use="required"/>
+</xs:complexType> 
+</xs:element>
+
+
+</xs:schema>

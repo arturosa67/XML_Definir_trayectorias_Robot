@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS process_type="welding MIG/MAG" units="mm:rad:s" HM_from_WORLD_to_SITE="[1 0 0 0;0 1 0 0;0 0 1 0;0 0 0 1]" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="fic_XSD.xsd">
+
+<!--esto es un comentario y se ignoran -->
+
+<GROUP name="G1" HM_from_SITE_to_PART="[1 0 0 0;0 1 0 0;0 0 1 0;0 0 0 1]">
+
+<TOPOINT name="G1_punto_inicial" xyz="1.9:50.0:10.7" angles="0:1.57:0" angles_type="ZYZ"/>
+<TOOL name="G1_activo_soldadura" velocity="1.2" time="0" active="ON"/>
+<LINE name="G1_linea_de_soldadura" xyz2="200:50:10" angles2="0:1.57:0" angles_type="ZYZ"/>
+
+<ARC name="G1_arco_de_soldadura" xyz2="180:0:10" angles2="0:1.57:0" xyz3="100:-50:10" angles3="0:1.57:0" angles_type="ZYZ"/>
+<TOOL name="G1_desactivo_soldadura" velocity="1.3" active="OFF"/>
+<TOPOINT name="G1_punto_reposo" xyz="0:0:50" angles="0:1.57:0" angles_type="ZYZ"/>
+<
+</GROUP>
+
+<INCLUDE name="nueva pieza" file="./pepe.xml" group="G3" OVERWRITE_HM_from_SITE_to_PART="[0.0 0.0 1.0 0.0;0.0 1.0 0.0 0.0;1.0 0.0 0.0 10.0;0 0 0 1]"/>
+
+<GROUP name="G2" HM_from_SITE_to_PART="[1 0 0 0;0 1 0 0;0 0 1 0;0 0 0 1]">
+
+<TOPOINT name="G2_aproximacion_inicial" xyz="0:0:30" angles="0:1.57:0" angles_type="ZYZ"/>
+<TOPOINT name="G2_punto_inicial" xyz="0:0:10" angles="0:1.57:0" angles_type="ZYZ"/>
+<POLILINE name="polilineaG2">
+	<LINE name="G2_linea1" xyz2="0:-50:10" angles2="0:1.57:0" angles_type="ZYZ"/>
+	<LINE name="G2_linea2" xyz2="200:-50:10" angles2="1:1:1" angles_type="ZYZ"/>
+</POLILINE>
+</GROUP>
+</PROCESS>

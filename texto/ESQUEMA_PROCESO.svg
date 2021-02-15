@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by diasvg.py -->
+<svg width="31.454cm" height="26.165cm" viewBox="1.424 2.535 32.877 28.700"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="13.590,4.200 21.538,4.200 20.810,6.200 12.862,6.200 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="13.590,4.200 21.538,4.200 20.810,6.200 12.862,6.200 "/>
+<text x="17.200" y="5.395"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Generar fichero XML</text>
+<rect x="6.770" y="8.950" width="20.160" height="2.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="6.770" y="8.950" width="20.160" height="2.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="16.850" y="10.095"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Preprocesar fichero XML</text>
+<text x="16.850" y="10.895"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+(validar, comprobar sintaxis, procesar GROUP y elementos)</text>
+<rect x="28.073" y="9.350" width="4.755" height="1.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="28.073" y="9.350" width="4.755" height="1.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="30.450" y="10.495"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Librería MH</text>
+<rect x="7.200" y="14.750" width="19.400" height="4.100" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="7.200" y="14.750" width="19.400" height="4.100" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="7.380" y="16.635" width="4.292" height="1.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="7.380" y="16.635" width="4.292" height="1.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="9.526" y="17.780"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+KUKA KR6</text>
+<rect x="12.030" y="16.585" width="4.700" height="1.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="12.030" y="16.585" width="4.700" height="1.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="14.380" y="17.730"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+KUKA KR16</text>
+<rect x="16.980" y="16.635" width="6.000" height="1.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="16.980" y="16.635" width="6.000" height="1.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="19.980" y="17.780"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+MOTOMAN HP6</text>
+<rect x="23.346" y="16.550" width="1.707" height="1.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="23.346" y="16.550" width="1.707" height="1.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="24.200" y="17.695"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+...</text>
+<text x="14.050" y="15.900"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+ROBOT Y ENTORNO</text>
+<line x1="12.014" y1="5.168" x2="12.716" y2="5.172" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="13.091,5.175 12.589,5.421 12.716,5.172 12.592,4.921 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="13.091,5.175 12.589,5.421 12.716,5.172 12.592,4.921 "/>
+<line x1="16.836" y1="6.200" x2="16.848" y2="8.463" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="16.849,8.838 16.597,8.339 16.848,8.463 17.097,8.337 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="16.849,8.838 16.597,8.339 16.848,8.463 17.097,8.337 "/>
+<line x1="28.073" y1="10.300" x2="27.417" y2="10.300" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="27.042,10.300 27.542,10.050 27.417,10.300 27.542,10.550 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="27.042,10.300 27.542,10.050 27.417,10.300 27.542,10.550 "/>
+<line x1="16.850" y1="11.650" x2="16.892" y2="14.263" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="16.898,14.638 16.640,14.142 16.892,14.263 17.140,14.134 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="16.898,14.638 16.640,14.142 16.892,14.263 17.140,14.134 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="11.241,26.750 23.314,26.750 22.623,28.650 10.549,28.650 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="11.241,26.750 23.314,26.750 22.623,28.650 10.549,28.650 "/>
+<text x="16.932" y="27.895"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+PROGRAMA ROBOT</text>
+<rect x="1.474" y="2.585" width="10.490" height="5.100" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="1.474" y="2.585" width="10.490" height="5.100" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="6.719" y="4.130"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Definición de XML</text>
+<text x="6.719" y="4.930"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Schema XML</text>
+<text x="6.719" y="5.730"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+(tipo de proceso, unidades,</text>
+<text x="6.719" y="6.530"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+definición de elementos,...)</text>
+<rect x="13.090" y="20.600" width="7.820" height="1.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="13.090" y="20.600" width="7.820" height="1.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="17.000" y="21.745"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Procesado </text>
+<line x1="16.900" y1="18.850" x2="16.945" y2="20.064" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="16.959,20.438 16.690,19.948 16.945,20.064 17.190,19.929 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="16.959,20.438 16.690,19.948 16.945,20.064 17.190,19.929 "/>
+<line x1="16.989" y1="22.550" x2="16.948" y2="26.213" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="16.944,26.588 16.700,26.085 16.948,26.213 17.200,26.091 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="16.944,26.588 16.700,26.085 16.948,26.213 17.200,26.091 "/>
+</svg>

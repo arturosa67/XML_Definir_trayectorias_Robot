@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS type="welding MIG/MAG" units="mm:rad:s" HM_from_WORLD_to_SITE="[1 0 0 800;0 1 0 0;0 0 1 300;0 0 0 1]" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="fic_XSD.xsd">
+<!--Part 2. Welding . KUKA KR16 -->
+<GROUP name="Pieza2_Welding" HM_from_SITE_to_PART="[1 0 0 0;0 1 0 -400;0 0 1 0;0 0 0 1]">
+<TOPOINT name="inicio" xyz="217.39:0:200 " angles="0:-3.1416:0" angles_type="ZYZ"/>
+<!--PASADA 1-->
+<LINE name="p1" xyz2="217.39:0:10" angles2="0:-3.1416:0" angles_type="ZYZ"/>
+<LINE name="p2" xyz2="217.39:800:10" angles2="0:-3.1416:0" angles_type="ZYZ"/>
+<TOPOINT name="p3" xyz="217.39:800:200" angles="0:-3.1416:0" angles_type="ZYZ"/>
+<!--PASADA 2-->
+<TOPOINT name="inicio" xyz="219.39:0:200 " angles="0:-3.1416:0" angles_type="ZYZ"/>
+<LINE name="p4" xyz2="219.39:0:12" angles2="0:-3.1416:0" angles_type="ZYZ"/>
+<LINE name="p5" xyz2="219.39:800:12" angles2="0:-3.1416:0" angles_type="ZYZ"/>
+<TOPOINT name="p6" xyz="219.39:800:200" angles="0:-3.1416:0" angles_type="ZYZ"/>
+<!--PASADA 3-->
+<TOPOINT name="inicio" xyz="215.39:0:200 " angles="0:-3.1416:0" angles_type="ZYZ"/>
+<LINE name="p7" xyz2="215.39:0:12" angles2="0:-3.1416:0" angles_type="ZYZ"/>
+<LINE name="p8" xyz2="215.39:800:12" angles2="0:-3.1416:0" angles_type="ZYZ"/>
+<TOPOINT name="p9" xyz="215.39:800:200" angles="0:-3.1416:0" angles_type="ZYZ"/>
+</GROUP>
+</PROCESS>

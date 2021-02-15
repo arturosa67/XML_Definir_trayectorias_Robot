@@ -1,0 +1,17 @@
+Informacion diversa util
+http://www.euclideanspace.com/
+
+Cuaternios en Python.
+http://www.fep.up.pt/docentes/jamatos/quaternions.html
+
+Matrices en Python
+http://cs.anu.edu.au/~Alistair.Rendell/Teaching/apac_comp3600/module0/code/matrix.py
+https://pypi.python.org/pypi/pymatrix/1.1.1
+http://code.activestate.com/recipes/578131-a-simple-matrix-class/
+
+Denavitt-Hartenberg
+
+http://en.wikipedia.org/wiki/Denavit%E2%80%93Hartenberg_parameters
+
+Matrices de rotacion
+http://es.wikipedia.org/wiki/Matriz_de_rotaci%C3%B3n

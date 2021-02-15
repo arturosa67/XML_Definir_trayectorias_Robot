@@ -1,0 +1,397 @@
+    <rrs2_Program version="2.4">
+    <rrs2_ProgramName value="KR6_Programa"/>
+    <rrs2_MainRoutine>
+    <rrs2_RoutineBody>
+       <rrs2_PureMotionStatement>
+    <Target>
+    <Joints>
+    <DOUBLE value="0.000000"/>
+    <DOUBLE value="-90.000000"/>
+    <DOUBLE value="90.000000"/>
+    <DOUBLE value="0.000000"/>
+    <DOUBLE value="0.000000"/>
+    <DOUBLE value="0.000000"/>
+    </Joints>
+    <Parameters>
+    <VALUE name="Interpolator::JointForce" value="100.000000"/>
+    <VALUE name="Interpolator::JointSpeed" value="100.000000"/>
+    <VALUE name="Interpolator" value="Joint"/>
+    <VALUE name="Base" value="BASE[1]"/>
+    <VALUE name="Tool" value="TOOL[1]"/>
+    <VALUE name="KR 6::Configuration" value="010"/>
+    <VALUE name="KR 6::Joint1" value="0.000000"/>
+    <VALUE name="KR 6::Joint4" value="0.000000"/>
+    <VALUE name="Interpolator::Synchronize" value="1"/>
+    </Parameters>
+    </Target>
+    <Frame aw="0.000000" ax="0.000000" ay="-1.000000" az="0.000000" flags="1" name="IFP1" nw="0.000000" nx="0.000000" ny="-0.000000" nz="-1.000000" ow="0.000000" ox="1.000000" oy="0.000000" oz="0.000000" pw="1.000000" px="575.010986" py="-145.000000" pz="602.000002"/>
+    </rrs2_PureMotionStatement>
+    
+     <rrs2_PureMotionStatement>
+        <Target incomplete="1">
+        <Joints>
+        <DOUBLE value="90.01166961505233"/>
+        <DOUBLE value="-56.60823015892534"/>
+        <DOUBLE value="20.569184845196556"/>
+        <DOUBLE value="0.0"/>
+        <DOUBLE value="35.9817495342157"/>
+        <DOUBLE value="-0.0"/>
+        </Joints>
+        <Parameters>
+        <VALUE name="Interpolator" value="Linear"/>
+        <VALUE name="Base" value="BASE[1]"/>
+        <VALUE name="Tool" value="TOOL[1]"/>
+        <VALUE name="KR 6::Configuration" value="010"/>
+        <VALUE name="KR 6::Joint1" value="0.000000"/>
+        <VALUE name="KR 6::Joint4" value="0.000000"/>
+        <VALUE name="Interpolator::JointSpeed" value="100.000000"/>
+        <VALUE name="Interpolator::JointForce" value="100.000000"/>
+        <VALUE name="Interpolator::Synchronize" value="1"/>
+        <VALUE name="Interpolator::MaxSpeed" value="1000.000000"/>
+        <VALUE name="Interpolator::Acceleration" value="2000.000000"/>
+        <VALUE name="Interpolator::Deceleration" value="2000.000000"/>
+        <VALUE name="Interpolator::MaxAngularSpeed" value="180.000000"/>
+        <VALUE name="Interpolator::AngularAcceleration" value="360.000000"/>
+        <VALUE name="Interpolator::AngularDeceleration" value="360.000000"/>
+        </Parameters>
+        </Target>
+        <Frame aw="0.000" ax="0.000" ay="-0.000" az="-1.000" flags="1" name="G1_punto_inicial" nw="0.000" nx="1.000" ny="-0.000" nz="0.000" ow="0.000" ox="-0.000" oy="-1.000" oz="0.000" pw="1.000" px="1000.000" py="0.000" pz="300.000"/>
+        </rrs2_PureMotionStatement>
+     
+     <rrs2_PureMotionStatement>
+        <Target incomplete="1">
+        <Joints>
+        <DOUBLE value="90.01166961505233"/>
+        <DOUBLE value="-34.20558036931015"/>
+        <DOUBLE value="21.829691994484364"/>
+        <DOUBLE value="-180.02333923010465"/>
+        <DOUBLE value="-12.375888374825783"/>
+        <DOUBLE value="359.9893826806963"/>
+        </Joints>
+        <Parameters>
+        <VALUE name="Interpolator" value="Linear"/>
+        <VALUE name="Base" value="BASE[1]"/>
+        <VALUE name="Tool" value="TOOL[1]"/>
+        <VALUE name="KR 6::Configuration" value="010"/>
+        <VALUE name="KR 6::Joint1" value="0.000000"/>
+        <VALUE name="KR 6::Joint4" value="0.000000"/>
+        <VALUE name="Interpolator::JointSpeed" value="100.000000"/>
+        <VALUE name="Interpolator::JointForce" value="100.000000"/>
+        <VALUE name="Interpolator::Synchronize" value="1"/>
+        <VALUE name="Interpolator::MaxSpeed" value="1000.000000"/>
+        <VALUE name="Interpolator::Acceleration" value="2000.000000"/>
+        <VALUE name="Interpolator::Deceleration" value="2000.000000"/>
+        <VALUE name="Interpolator::MaxAngularSpeed" value="180.000000"/>
+        <VALUE name="Interpolator::AngularAcceleration" value="360.000000"/>
+        <VALUE name="Interpolator::AngularDeceleration" value="360.000000"/>
+        </Parameters>
+        </Target>
+        <Frame aw="0.000" ax="0.000" ay="0.000" az="-1.000" flags="1" name="G1_punto_1" nw="0.000" nx="-1.000" ny="-0.000" nz="-0.000" ow="0.000" ox="-0.000" oy="1.000" oz="0.000" pw="1.000" px="1000.000" py="0.000" pz="30.000"/>
+        </rrs2_PureMotionStatement>
+     
+     <rrs2_PureMotionStatement>
+        <Target incomplete="1">
+        <Joints>
+        <DOUBLE value="90.01166961505233"/>
+        <DOUBLE value="-32.37211542489151"/>
+        <DOUBLE value="14.839606893888323"/>
+        <DOUBLE value="-180.02333923010465"/>
+        <DOUBLE value="-17.417916971977025"/>
+        <DOUBLE value="359.9893826806963"/>
+        </Joints>
+        <Parameters>
+        <VALUE name="Interpolator" value="Linear"/>
+        <VALUE name="Base" value="BASE[1]"/>
+        <VALUE name="Tool" value="TOOL[1]"/>
+        <VALUE name="KR 6::Configuration" value="010"/>
+        <VALUE name="KR 6::Joint1" value="0.000000"/>
+        <VALUE name="KR 6::Joint4" value="0.000000"/>
+        <VALUE name="Interpolator::JointSpeed" value="100.000000"/>
+        <VALUE name="Interpolator::JointForce" value="100.000000"/>
+        <VALUE name="Interpolator::Synchronize" value="1"/>
+        <VALUE name="Interpolator::MaxSpeed" value="1000.000000"/>
+        <VALUE name="Interpolator::Acceleration" value="2000.000000"/>
+        <VALUE name="Interpolator::Deceleration" value="2000.000000"/>
+        <VALUE name="Interpolator::MaxAngularSpeed" value="180.000000"/>
+        <VALUE name="Interpolator::AngularAcceleration" value="360.000000"/>
+        <VALUE name="Interpolator::AngularDeceleration" value="360.000000"/>
+        </Parameters>
+        </Target>
+        <Frame aw="0.000" ax="0.002" ay="-0.000" az="-1.000" flags="1" name="G1_linea_de_1_a_2" nw="0.000" nx="-1.000" ny="-0.000" nz="-0.002" ow="0.000" ox="-0.000" oy="1.000" oz="-0.000" pw="1.000" px="1070.000" py="-0.000" pz="30.000"/>
+        </rrs2_PureMotionStatement>
+     
+     <rrs2_PureMotionStatement>
+        <Target incomplete="1">
+        <Joints>
+        <DOUBLE value="110.4662629012227"/>
+        <DOUBLE value="-29.908396905828976"/>
+        <DOUBLE value="6.990085100596044"/>
+        <DOUBLE value="-180.02333923010465"/>
+        <DOUBLE value="-22.91831180523293"/>
+        <DOUBLE value="339.47749361501275"/>
+        </Joints>
+        <Parameters>
+        <VALUE name="Interpolator" value="Linear"/>
+        <VALUE name="Base" value="BASE[1]"/>
+        <VALUE name="Tool" value="TOOL[1]"/>
+        <VALUE name="KR 6::Configuration" value="010"/>
+        <VALUE name="KR 6::Joint1" value="0.000000"/>
+        <VALUE name="KR 6::Joint4" value="0.000000"/>
+        <VALUE name="Interpolator::JointSpeed" value="100.000000"/>
+        <VALUE name="Interpolator::JointForce" value="100.000000"/>
+        <VALUE name="Interpolator::Synchronize" value="1"/>
+        <VALUE name="Interpolator::MaxSpeed" value="1000.000000"/>
+        <VALUE name="Interpolator::Acceleration" value="2000.000000"/>
+        <VALUE name="Interpolator::Deceleration" value="2000.000000"/>
+        <VALUE name="Interpolator::MaxAngularSpeed" value="180.000000"/>
+        <VALUE name="Interpolator::AngularAcceleration" value="360.000000"/>
+        <VALUE name="Interpolator::AngularDeceleration" value="360.000000"/>
+        </Parameters>
+        </Target>
+        <Frame aw="0.000" ax="-0.000" ay="-0.000" az="-1.000" flags="1" name="G1_linea_de_2_a_3" nw="0.000" nx="-1.000" ny="0.000" nz="0.000" ow="0.000" ox="0.000" oy="1.000" oz="-0.000" pw="1.000" px="1070.000" py="400.000" pz="30.000"/>
+        </rrs2_PureMotionStatement>
+     
+     <rrs2_PureMotionStatement>
+        <Target incomplete="1">
+        <Joints>
+        <DOUBLE value="110.00789666511805"/>
+        <DOUBLE value="-28.87707287459349"/>
+        <DOUBLE value="3.896113006889598"/>
+        <DOUBLE value="-179.90874767107852"/>
+        <DOUBLE value="-24.86636830867773"/>
+        <DOUBLE value="339.9358598511174"/>
+        </Joints>
+        <Parameters>
+        <VALUE name="Interpolator" value="Linear"/>
+        <VALUE name="Base" value="BASE[1]"/>
+        <VALUE name="Tool" value="TOOL[1]"/>
+        <VALUE name="KR 6::Configuration" value="010"/>
+        <VALUE name="KR 6::Joint1" value="0.000000"/>
+        <VALUE name="KR 6::Joint4" value="0.000000"/>
+        <VALUE name="Interpolator::JointSpeed" value="100.000000"/>
+        <VALUE name="Interpolator::JointForce" value="100.000000"/>
+        <VALUE name="Interpolator::Synchronize" value="1"/>
+        <VALUE name="Interpolator::MaxSpeed" value="1000.000000"/>
+        <VALUE name="Interpolator::Acceleration" value="2000.000000"/>
+        <VALUE name="Interpolator::Deceleration" value="2000.000000"/>
+        <VALUE name="Interpolator::MaxAngularSpeed" value="180.000000"/>
+        <VALUE name="Interpolator::AngularAcceleration" value="360.000000"/>
+        <VALUE name="Interpolator::AngularDeceleration" value="360.000000"/>
+        </Parameters>
+        </Target>
+        <Frame aw="0.000" ax="0.002" ay="0.000" az="-1.000" flags="1" name="G1_linea_de_3_a_4" nw="0.000" nx="-1.000" ny="-0.000" nz="-0.002" ow="0.000" ox="-0.000" oy="1.000" oz="0.000" pw="1.000" px="1100.000" py="400.000" pz="30.000"/>
+        </rrs2_PureMotionStatement>
+     
+     <rrs2_PureMotionStatement>
+        <Target incomplete="1">
+        <Joints>
+        <DOUBLE value="90.01166961505233"/>
+        <DOUBLE value="-31.398087173169117"/>
+        <DOUBLE value="11.573747461642629"/>
+        <DOUBLE value="-180.02333923010465"/>
+        <DOUBLE value="-19.7670439320134"/>
+        <DOUBLE value="359.9893826806963"/>
+        </Joints>
+        <Parameters>
+        <VALUE name="Interpolator" value="Linear"/>
+        <VALUE name="Base" value="BASE[1]"/>
+        <VALUE name="Tool" value="TOOL[1]"/>
+        <VALUE name="KR 6::Configuration" value="010"/>
+        <VALUE name="KR 6::Joint1" value="0.000000"/>
+        <VALUE name="KR 6::Joint4" value="0.000000"/>
+        <VALUE name="Interpolator::JointSpeed" value="100.000000"/>
+        <VALUE name="Interpolator::JointForce" value="100.000000"/>
+        <VALUE name="Interpolator::Synchronize" value="1"/>
+        <VALUE name="Interpolator::MaxSpeed" value="1000.000000"/>
+        <VALUE name="Interpolator::Acceleration" value="2000.000000"/>
+        <VALUE name="Interpolator::Deceleration" value="2000.000000"/>
+        <VALUE name="Interpolator::MaxAngularSpeed" value="180.000000"/>
+        <VALUE name="Interpolator::AngularAcceleration" value="360.000000"/>
+        <VALUE name="Interpolator::AngularDeceleration" value="360.000000"/>
+        </Parameters>
+        </Target>
+        <Frame aw="0.000" ax="0.000" ay="0.000" az="-1.000" flags="1" name="G1_linea_de_4_a_5" nw="0.000" nx="-1.000" ny="0.000" nz="-0.000" ow="0.000" ox="0.000" oy="1.000" oz="0.000" pw="1.000" px="1100.000" py="-0.000" pz="30.000"/>
+        </rrs2_PureMotionStatement>
+     
+     <rrs2_PureMotionStatement>
+        <Target incomplete="1">
+        <Joints>
+        <DOUBLE value="90.01166961505233"/>
+        <DOUBLE value="-28.418706638488832"/>
+        <DOUBLE value="2.7501974166279517"/>
+        <DOUBLE value="-180.02333923010465"/>
+        <DOUBLE value="-25.725805001373967"/>
+        <DOUBLE value="359.9893826806963"/>
+        </Joints>
+        <Parameters>
+        <VALUE name="Interpolator" value="Linear"/>
+        <VALUE name="Base" value="BASE[1]"/>
+        <VALUE name="Tool" value="TOOL[1]"/>
+        <VALUE name="KR 6::Configuration" value="010"/>
+        <VALUE name="KR 6::Joint1" value="0.000000"/>
+        <VALUE name="KR 6::Joint4" value="0.000000"/>
+        <VALUE name="Interpolator::JointSpeed" value="100.000000"/>
+        <VALUE name="Interpolator::JointForce" value="100.000000"/>
+        <VALUE name="Interpolator::Synchronize" value="1"/>
+        <VALUE name="Interpolator::MaxSpeed" value="1000.000000"/>
+        <VALUE name="Interpolator::Acceleration" value="2000.000000"/>
+        <VALUE name="Interpolator::Deceleration" value="2000.000000"/>
+        <VALUE name="Interpolator::MaxAngularSpeed" value="180.000000"/>
+        <VALUE name="Interpolator::AngularAcceleration" value="360.000000"/>
+        <VALUE name="Interpolator::AngularDeceleration" value="360.000000"/>
+        </Parameters>
+        </Target>
+        <Frame aw="0.000" ax="-0.000" ay="0.000" az="-1.000" flags="1" name="G1_linea_de_5_a_6" nw="0.000" nx="-1.000" ny="0.000" nz="0.000" ow="0.000" ox="0.000" oy="1.000" oz="0.000" pw="1.000" px="1180.000" py="-0.000" pz="30.000"/>
+        </rrs2_PureMotionStatement>
+     
+     <rrs2_PureMotionStatement>
+        <Target incomplete="1">
+        <Joints>
+        <DOUBLE value="90.01166961505233"/>
+        <DOUBLE value="-26.184171237478623"/>
+        <DOUBLE value="1.6615776058793876"/>
+        <DOUBLE value="-180.02333923010465"/>
+        <DOUBLE value="-24.522593631599232"/>
+        <DOUBLE value="359.9893826806963"/>
+        </Joints>
+        <Parameters>
+        <VALUE name="Interpolator" value="Linear"/>
+        <VALUE name="Base" value="BASE[1]"/>
+        <VALUE name="Tool" value="TOOL[1]"/>
+        <VALUE name="KR 6::Configuration" value="010"/>
+        <VALUE name="KR 6::Joint1" value="0.000000"/>
+        <VALUE name="KR 6::Joint4" value="0.000000"/>
+        <VALUE name="Interpolator::JointSpeed" value="100.000000"/>
+        <VALUE name="Interpolator::JointForce" value="100.000000"/>
+        <VALUE name="Interpolator::Synchronize" value="1"/>
+        <VALUE name="Interpolator::MaxSpeed" value="1000.000000"/>
+        <VALUE name="Interpolator::Acceleration" value="2000.000000"/>
+        <VALUE name="Interpolator::Deceleration" value="2000.000000"/>
+        <VALUE name="Interpolator::MaxAngularSpeed" value="180.000000"/>
+        <VALUE name="Interpolator::AngularAcceleration" value="360.000000"/>
+        <VALUE name="Interpolator::AngularDeceleration" value="360.000000"/>
+        </Parameters>
+        </Target>
+        <Frame aw="0.000" ax="-0.000" ay="0.000" az="-1.000" flags="1" name="G1_linea_de_6_a_7" nw="0.000" nx="-1.000" ny="0.000" nz="0.000" ow="0.000" ox="0.000" oy="1.000" oz="0.000" pw="1.000" px="1180.000" py="-0.000" pz="-0.000"/>
+        </rrs2_PureMotionStatement>
+     
+     <rrs2_PureMotionStatement>
+        <Target incomplete="1">
+        <Joints>
+        <DOUBLE value="108.74738951583025"/>
+        <DOUBLE value="-23.433973820850667"/>
+        <DOUBLE value="-6.245239966925974"/>
+        <DOUBLE value="-180.02333923010465"/>
+        <DOUBLE value="-29.679213787776646"/>
+        <DOUBLE value="341.2536627799184"/>
+        </Joints>
+        <Parameters>
+        <VALUE name="Interpolator" value="Linear"/>
+        <VALUE name="Base" value="BASE[1]"/>
+        <VALUE name="Tool" value="TOOL[1]"/>
+        <VALUE name="KR 6::Configuration" value="010"/>
+        <VALUE name="KR 6::Joint1" value="0.000000"/>
+        <VALUE name="KR 6::Joint4" value="0.000000"/>
+        <VALUE name="Interpolator::JointSpeed" value="100.000000"/>
+        <VALUE name="Interpolator::JointForce" value="100.000000"/>
+        <VALUE name="Interpolator::Synchronize" value="1"/>
+        <VALUE name="Interpolator::MaxSpeed" value="1000.000000"/>
+        <VALUE name="Interpolator::Acceleration" value="2000.000000"/>
+        <VALUE name="Interpolator::Deceleration" value="2000.000000"/>
+        <VALUE name="Interpolator::MaxAngularSpeed" value="180.000000"/>
+        <VALUE name="Interpolator::AngularAcceleration" value="360.000000"/>
+        <VALUE name="Interpolator::AngularDeceleration" value="360.000000"/>
+        </Parameters>
+        </Target>
+        <Frame aw="0.000" ax="0.000" ay="-0.000" az="-1.000" flags="1" name="G1_linea_de_7_a_8" nw="0.000" nx="-1.000" ny="-0.000" nz="-0.000" ow="0.000" ox="-0.000" oy="1.000" oz="-0.000" pw="1.000" px="1180.000" py="400.000" pz="-0.000"/>
+        </rrs2_PureMotionStatement>
+     
+     <rrs2_PureMotionStatement>
+        <Target incomplete="1">
+        <Joints>
+        <DOUBLE value="108.74738951583025"/>
+        <DOUBLE value="-43.08642619383791"/>
+        <DOUBLE value="-0.8021409131831525"/>
+        <DOUBLE value="-180.02333923010465"/>
+        <DOUBLE value="-43.83127132750797"/>
+        <DOUBLE value="341.2536627799184"/>
+        </Joints>
+        <Parameters>
+        <VALUE name="Interpolator" value="Linear"/>
+        <VALUE name="Base" value="BASE[1]"/>
+        <VALUE name="Tool" value="TOOL[1]"/>
+        <VALUE name="KR 6::Configuration" value="010"/>
+        <VALUE name="KR 6::Joint1" value="0.000000"/>
+        <VALUE name="KR 6::Joint4" value="0.000000"/>
+        <VALUE name="Interpolator::JointSpeed" value="100.000000"/>
+        <VALUE name="Interpolator::JointForce" value="100.000000"/>
+        <VALUE name="Interpolator::Synchronize" value="1"/>
+        <VALUE name="Interpolator::MaxSpeed" value="1000.000000"/>
+        <VALUE name="Interpolator::Acceleration" value="2000.000000"/>
+        <VALUE name="Interpolator::Deceleration" value="2000.000000"/>
+        <VALUE name="Interpolator::MaxAngularSpeed" value="180.000000"/>
+        <VALUE name="Interpolator::AngularAcceleration" value="360.000000"/>
+        <VALUE name="Interpolator::AngularDeceleration" value="360.000000"/>
+        </Parameters>
+        </Target>
+        <Frame aw="0.000" ax="-0.000" ay="-0.000" az="-1.000" flags="1" name="vuelta_G1_punto_inicial_1" nw="0.000" nx="-1.000" ny="0.000" nz="0.000" ow="0.000" ox="-0.000" oy="1.000" oz="-0.000" pw="1.000" px="1180.000" py="400.000" pz="300.000"/>
+        </rrs2_PureMotionStatement>
+     
+     <rrs2_PureMotionStatement>
+        <Target incomplete="1">
+        <Joints>
+        <DOUBLE value="90.01166961505233"/>
+        <DOUBLE value="-56.60823015892534"/>
+        <DOUBLE value="26.527945914557115"/>
+        <DOUBLE value="-180.02333923010465"/>
+        <DOUBLE value="-30.08028424436822"/>
+        <DOUBLE value="359.9893826806963"/>
+        </Joints>
+        <Parameters>
+        <VALUE name="Interpolator" value="Linear"/>
+        <VALUE name="Base" value="BASE[1]"/>
+        <VALUE name="Tool" value="TOOL[1]"/>
+        <VALUE name="KR 6::Configuration" value="010"/>
+        <VALUE name="KR 6::Joint1" value="0.000000"/>
+        <VALUE name="KR 6::Joint4" value="0.000000"/>
+        <VALUE name="Interpolator::JointSpeed" value="100.000000"/>
+        <VALUE name="Interpolator::JointForce" value="100.000000"/>
+        <VALUE name="Interpolator::Synchronize" value="1"/>
+        <VALUE name="Interpolator::MaxSpeed" value="1000.000000"/>
+        <VALUE name="Interpolator::Acceleration" value="2000.000000"/>
+        <VALUE name="Interpolator::Deceleration" value="2000.000000"/>
+        <VALUE name="Interpolator::MaxAngularSpeed" value="180.000000"/>
+        <VALUE name="Interpolator::AngularAcceleration" value="360.000000"/>
+        <VALUE name="Interpolator::AngularDeceleration" value="360.000000"/>
+        </Parameters>
+        </Target>
+        <Frame aw="0.000" ax="0.000" ay="0.000" az="-1.000" flags="1" name="vuelta_G1_punto_inicial_2" nw="0.000" nx="-1.000" ny="-0.000" nz="0.000" ow="0.000" ox="-0.000" oy="1.000" oz="0.000" pw="1.000" px="1000.000" py="-0.000" pz="300.000"/>
+        </rrs2_PureMotionStatement>
+        <rrs2_PureMotionStatement>
+    <Target>
+    <Joints>
+    <DOUBLE value="0.000000"/>
+    <DOUBLE value="-90.000000"/>
+    <DOUBLE value="90.000000"/>
+    <DOUBLE value="0.000000"/>
+    <DOUBLE value="0.000000"/>
+    <DOUBLE value="0.000000"/>
+    </Joints>
+    <Parameters>
+    <VALUE name="Interpolator::JointForce" value="100.000000"/>
+    <VALUE name="Interpolator::JointSpeed" value="100.000000"/>
+    <VALUE name="Interpolator" value="Joint"/>
+    <VALUE name="Base" value="BASE[1]"/>
+    <VALUE name="Tool" value="TOOL[1]"/>
+    <VALUE name="KR 6::Configuration" value="010"/>
+    <VALUE name="KR 6::Joint1" value="0.000000"/>
+    <VALUE name="KR 6::Joint4" value="0.000000"/>
+    <VALUE name="Interpolator::Synchronize" value="1"/>
+    </Parameters>
+    </Target>
+    <Frame aw="0.000000" ax="0.000000" ay="-1.000000" az="0.000000" flags="1" name="IFP1" nw="0.000000" nx="0.000000" ny="-0.000000" nz="-1.000000" ow="0.000000" ox="1.000000" oy="0.000000" oz="0.000000" pw="1.000000" px="575.010986" py="-145.000000" pz="602.000002"/>
+    </rrs2_PureMotionStatement>
+        </rrs2_RoutineBody>
+    </rrs2_MainRoutine>
+    </rrs2_Program>
+    

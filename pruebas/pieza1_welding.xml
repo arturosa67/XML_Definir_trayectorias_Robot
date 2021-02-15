@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS type="welding MIG/MAG" units="mm:rad:s" HM_from_WORLD_to_SITE="[1 0 0 1000;0 1 0 0;0 0 1 0;0 0 0 1]" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="fic_XSD.xsd">
+<!--Part1 . Welding. -->
+<GROUP name="Pieza1_Welding" HM_from_SITE_to_PART="[1 0 0 0;0 1 0 0;0 0 1 500;0 0 0 1]">
+<TOPOINT name="1" xyz="60:0:100 " angles="0:3.1416:0" angles_type="ZYZ"/>
+<LINE name="2" xyz2="70:0:30" angles2="0:2.35:0" angles_type="ZYZ"/>
+<LINE name="3" xyz2="70:400:30" angles2="0:2.35:0" angles_type="ZYZ"/>
+<TOPOINT name="4" xyz="70:400:225 " angles="0:3.1416:0" angles_type="ZYZ"/>
+<TOPOINT name="5" xyz="100:430:225 " angles="0:3.1416:0" angles_type="ZYZ"/>
+<LINE name="6" xyz2="100:400:30" angles2="0:-2.35:0" angles_type="ZYZ"/>
+<LINE name="7" xyz2="100:0:30" angles2="0:-2.35:0" angles_type="ZYZ"/>
+<TOPOINT name="8" xyz="110:0:225 " angles="0:3.1416:0" angles_type="ZYZ"/>
+<TOPOINT name="9" xyz="179.96:0:0 " angles="0:3.1416:0" angles_type="ZYZ"/>
+<LINE name="10" xyz2="179.96:400:0" angles2="0:3.1416:0" angles_type="ZYZ"/>
+<TOPOINT name="11" xyz="179.96:400:225 " angles="0:3.1416:0" angles_type="ZYZ"/>
+<TOPOINT name="12" xyz="260:0:225 " angles="0:3.1416:0" angles_type="ZYZ"/>
+<LINE name="13" xyz2="270:0:30" angles2="0:2.35:0" angles_type="ZYZ"/>
+<LINE name="14" xyz2="270:400:30" angles2="0:2.35:0" angles_type="ZYZ"/>
+<TOPOINT name="15" xyz="260:400:225 " angles="0:3.1416:0" angles_type="ZYZ"/>
+<TOPOINT name="16" xyz="310:0:225 " angles="0:3.1416:0" angles_type="ZYZ"/>
+<TOPOINT name="17" xyz="340:0:225 " angles="0:3.416:0" angles_type="ZYZ"/>
+<LINE name="18" xyz2="380:0:30" angles2="0:2.5:0" angles_type="ZYZ"/>
+<LINE name="19" xyz2="380:350:30" angles2="0:2.5:0" angles_type="ZYZ"/>
+<LINE name="20" xyz2="380:350:200" angles2="0:2.5:0" angles_type="ZYZ"/>
+<TOPOINT name="21" xyz="200:200:225 " angles="0:3.416:0" angles_type="ZYZ"/>
+</GROUP>
+</PROCESS>

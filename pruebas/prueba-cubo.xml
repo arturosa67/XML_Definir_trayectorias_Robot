@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS type="welding MIG/MAG" units="mm:rad:s" HM_from_WORLD_to_SITE="[1 0 0 1000;0 1 0 0;0 0 1 500;0 0 0 1]" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="fic_XSD.xsd">
+
+<!--esto es un comentario y se ignoran -->
+
+<GROUP name="G1" HM_from_SITE_to_PART="[1 0 0 0;0 1 0 0;0 0 1 0;0 0 0 1]">
+
+<TOPOINT name="G1_punto_inicial" xyz="0:0:50 " angles="0:3.1416:0" angles_type="ZYZ"/>
+<TOPOINT name="G1_punto_1" xyz="-250:-250:0 " angles="0:3.1416:0" angles_type="ZYZ"/>
+<!--<TOOL name="G1_activo_soldadura" velocity="1.2" time="0" active="on"/>-->
+<LINE name="G1_linea_de_1_a_2" xyz2="250:-250:0" angles2="0:3.14:0" angles_type="ZYZ"/>
+<LINE name="G1_linea_de_2_a_3" xyz2="250:250:0" angles2="0:3.14:0" angles_type="ZYZ"/>
+<LINE name="G1_linea_de_3_a_4" xyz2="-250:250:0" angles2="0:3.14:0" angles_type="ZYZ"/>
+<LINE name="G1_linea_de_4_a_1" xyz2="-250:-250:0" angles2="0:3.14:0" angles_type="ZYZ"/>
+<TOOL name="G1_desactivo_soldadura" velocity="1.2" time="0" active="off"/>
+<TOPOINT name="vuelta_G1_punto_inicial" xyz="0:0:50 " angles="0:3.14:0" angles_type="ZYZ"/>
+</GROUP>
+
+<GROUP name="G2" HM_from_SITE_to_PART="[1 0 0 0;0 1 0 0;0 0 1 0;0 0 0 1]">
+<TOPOINT name="G2_aproximacion_inicial" xyz="0:0:50 " angles="0:3.14:0" angles_type="ZYZ"/>
+<TOPOINT name="G2_punto_inicial" xyz="-250:-250:0" angles="0:3.14:0" angles_type="ZYZ"/>
+<POLILINE name="polilineaG2">
+	<LINE name="G2_linea1" xyz2="250:-250:0" angles2="0:3.14:0" angles_type="ZYZ"/>
+	<LINE name="G2_linea2" xyz2="250:250:0" angles2="0:3.14:0" angles_type="ZYZ"/>
+        <LINE name="G2_linea2" xyz2="-250:250:0" angles2="0:3.14:0" angles_type="ZYZ"/>
+        <LINE name="G2_linea2" xyz2="-250:-250:0" angles2="0:3.14:0" angles_type="ZYZ"/>
+</POLILINE>
+</GROUP> 
+</PROCESS>
