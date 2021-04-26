@@ -1,2 +1,2 @@
 # XML_Definir_trayectorias_Robot
-Este es un fichero de pryuebas pra poder hacer ensayos.
+Program to calculate the joint trajectories of a KUKA KR3 robot.
